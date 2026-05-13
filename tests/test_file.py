@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LinearRegression # Not a classifier, used for testing invalid input
 from sklearn.metrics import make_scorer, f1_score
 
-import megafs
+from megafs import megafs
 
 def test_file_not_found():
     with pytest.raises(FileNotFoundError, match="was not found"):
