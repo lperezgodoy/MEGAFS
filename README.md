@@ -57,7 +57,7 @@ The input dataset **must** be an Excel file (`.xlsx`) structured as follows:
 The main entry point is the `megafs` function. Here is a complete example of how to run an experiment:
 
 ```python
-from MEGAFS import megafs
+from megafs import megafs
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 
 # 1. Define the path to your dataset
