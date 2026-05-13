@@ -1,4 +1,4 @@
-import megafs
+from megafs import megafs
 
 
 dataset = 'RNASeqHIVFeb25.xlsx'
