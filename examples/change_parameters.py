@@ -1,4 +1,4 @@
-import megafs
+from megafs import megafs
 
 
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
