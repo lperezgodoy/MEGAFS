@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "MEGAFS"  
-version = "0.1.1"
+name = "megafs"  
+version = "0.1"
 description = "Implementation of a feature selection method for high-dimensional omics data"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 #license = {text = "MIT"}
 license = {file = "License.md"}
 
