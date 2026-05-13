@@ -1,0 +1,39 @@
+#[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MEGAFS"  
+version = "0.1.1"
+description = "Implementation of a feature selection method for high-dimensional omics data"
+readme = "README.md"
+requires-python = ">=3.9"
+#license = {text = "MIT"}
+license = {file = "License.md"}
+
+authors = [
+  { name = "M. Dolores Pérez-Godoy", email = "lperez@ujaen.es" },
+  { name = "Antonio J. Caruz", email = "caruz@ujaen.es" },
+  { name = "Fernando Moreno", email = "fmjimene@ujaen.es" },
+  { name = "Celia Ruiz-García", email = "ceruiz@ujaen.es" },
+  { name = "Francisco J. Márquez", email = "jmarquez@ujaen.es" },
+  { name = "Antonio J. Rivera", email = "arivera@ujaen.es" }
+]
+
+maintainers = [
+  { name = "M. Dolores Pérez-Godoy", email = "lperez@ujaen.es" },
+  { name = "Antonio J. Rivera", email = "arivera@ujaen.es" }
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
